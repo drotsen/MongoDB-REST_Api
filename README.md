@@ -3,6 +3,12 @@
 set GIT_SSL_NO_VERIFY=true  or git config --global http.sslverify "false" 
 update: git config http.sslCAinfo "/path/to/ca-bundle.crt"
 
+git config --global user.name ""
+git config --global user.email ""
+
+git pull origin master
+
+
 git remote add origin https://github.com/drotsen/MongoDB-REST_Api.git
 git push -u origin main
 # Setting virtual envoirment
