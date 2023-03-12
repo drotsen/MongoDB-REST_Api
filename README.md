@@ -6,7 +6,7 @@ update: git config http.sslCAinfo "/path/to/ca-bundle.crt"
 git config --global user.name ""
 git config --global user.email ""
 
-git pull origin master
+git pull origin main
 
 
 git remote add origin https://github.com/drotsen/MongoDB-REST_Api.git
