@@ -8,6 +8,10 @@ git config --global user.email ""
 
 git pull origin main
 
+new branch
+git checkout xxx   switches to new branch xxx
+git push origin xxx
+
 
 git remote add origin https://github.com/drotsen/MongoDB-REST_Api.git
 git push -u origin main
@@ -23,3 +27,7 @@ virtualenv [directory]
 deactivate
 # Remove if your virtual environment is in a directory called 'venv':
 rm -r venv
+
+# Start uvicorn
+uvicorn index:app --reload
+http://127.0.0.1:8000/docs   :shows swagger page
